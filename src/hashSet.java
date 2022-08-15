@@ -6,7 +6,7 @@ public class hashSet {
         mySet.add("USA");
         mySet.add("Abdullah");
 
-        for(String s : mySet){
+        for (String s : mySet) {
             System.out.println(s);
         }
     }

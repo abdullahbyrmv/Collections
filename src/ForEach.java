@@ -9,16 +9,16 @@ public class ForEach {
         list.add(5);
         list.add(6);
         System.out.println("For-Each Version : ");
-        for(Integer s : list){
+        for (Integer s : list) {
             System.out.println(s);
         }
         System.out.println("");
 
- //-------------------------------------------------
+        //-------------------------------------------------
 
         System.out.println("While Version : ");
         Iterator<Integer> iter = list.iterator();
-        while(iter.hasNext()){
+        while (iter.hasNext()) {
             Integer s = iter.next();
             System.out.println(s);
         }

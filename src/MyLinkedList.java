@@ -1,22 +1,23 @@
 public class MyLinkedList {
     private Node lastElement;
 
-    class Node{
+    class Node {
 
         private Object obj;
         private Node nextElement;
-        public Node(Object obj){
+
+        public Node(Object obj) {
         }
 
-        public void setNextElement(Node node){
+        public void setNextElement(Node node) {
         }
     }
 
-    public void add(Object obj){
-        Node  n = new Node(obj);
-        if(lastElement == null){
+    public void add(Object obj) {
+        Node n = new Node(obj);
+        if (lastElement == null) {
             lastElement = n;
-        } else{
+        } else {
             lastElement.nextElement = n;
             lastElement = n;
         }

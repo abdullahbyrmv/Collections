@@ -5,7 +5,7 @@ public class treeSet {
         TreeSet<String> set = new TreeSet<>();
         set.add("USA");
         set.add("Abdullah");
-        for(String s : set){
+        for (String s : set) {
             System.out.println(s);
         }
     }

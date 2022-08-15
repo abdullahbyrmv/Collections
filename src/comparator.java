@@ -18,20 +18,20 @@ public class comparator {
                 return res;
             }
         };
-        List<User> list = Arrays.asList(new User(3),new User(-9),new User(5),new User(1));
+        List<User> list = Arrays.asList(new User(3), new User(-9), new User(5), new User(1));
         List<User> myList = new ArrayList<>();
         myList.add(new User(3));
         myList.add(new User(4));
         myList.add(new User(5));
         myList.add(new User(-1));
         myList.add(new User(9));
-        Collections.sort(list,myComparator);
-        for(User u : list){
+        Collections.sort(list, myComparator);
+        for (User u : list) {
             System.out.println(u.age);
         }
         System.out.println();
         System.out.println();
-        Collections.sort(myList,myComparator);
+        Collections.sort(myList, myComparator);
         for (int i = 0; i < myList.size(); i++) {
             User u = myList.get(i);
             System.out.println(u.age);
