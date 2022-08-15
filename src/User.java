@@ -17,4 +17,11 @@ public class User implements Comparable<User> {
         }
         return res;
     }
+
+    public static void main(String[] args) {
+        User u = new User(10);
+        User u2 = new User(15);
+        int res = u.compareTo(u2);
+        System.out.println(res);
+    }
 }

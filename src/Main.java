@@ -38,7 +38,7 @@ public class Main {
         }
     }
 
-    // Alternative of Vector (SynchronizedList)
+    //Alternative of Vector (SynchronizedList)
     List<String> list = new LinkedList<>();
     List<String> mySynchronizedList = Collections.synchronizedList(list);
     List<String> sync = Collections.synchronizedList(new ArrayList<>());
