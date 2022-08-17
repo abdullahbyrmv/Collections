@@ -47,13 +47,13 @@ public class comparator {
         System.out.println();
 
         Collections.sort(list);
-        for(User u : list){
+        for (User u : list) {
             System.out.println(u.age);
         }
 
         System.out.println();
         System.out.println();
 
-        System.out.println(myComparator.compare(new User(10),new User(15)));
+        System.out.println(myComparator.compare(new User(10), new User(15)));
     }
 }
